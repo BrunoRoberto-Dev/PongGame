@@ -46,8 +46,6 @@ var right = {
     speed: 15
 }; 
 
-console.log(right.y, left.y)
-
 document.addEventListener("keydown", function(e) {
     keys[e.keyCode] = true;
 }, false);
